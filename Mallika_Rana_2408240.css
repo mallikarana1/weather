@@ -1,0 +1,188 @@
+/**
+*Mallika Rana
+*2408240
+*/
+*{
+    padding:0px;
+    margin:0px;
+    background: linear-gradient(90deg,rgb(40, 249, 249),#ffffff,#89CFF3);
+    /*to fix the background image*/
+    background-attachment: fixed;
+}
+body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#weatherForecast{
+    padding:5px;
+    margin:5px;
+    width:50%;
+    border: solid;
+}
+#heading{
+    padding:5px;
+    margin:5px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+.searchEngine{
+    position: relative;
+}
+#cityInput{
+    padding:5px;
+    margin:5px;
+    margin-left: 10px;
+    border:solid black;
+    border-radius: 4px;
+    background-color: rgb(195, 226, 226);
+    width: 70%;
+    font-size: 20px;
+}
+#submit{
+    padding:5px;
+    margin:5px;
+    margin-right: 10px;
+    font-size: 20px;
+    background-color: rgb(195, 226, 226);
+    color:black;
+    border-radius:4px;
+    cursor: pointer;
+    position: absolute;
+    width:20%;
+}
+#submit:hover{
+    background-color:#0a425e;
+}
+#cityName{
+    font-size: 30px;
+    color:rgb(0, 0, 0);
+    padding:10px;
+    margin:10px;
+    text-align: center;
+}
+#temperatureCondition{
+    padding:10px;
+    display:block;
+    margin-right: auto;
+    margin-left: auto;
+    border:solid;
+    outline-style: solid;
+    outline-color:black;
+    outline-width: medium;
+    border-radius: 2px;
+    color: white;
+    background-color:#89CFF3;
+    width:90%;
+}
+#image{
+    padding:10px;
+    display: block;
+    margin-right:auto;
+    margin-left:auto;
+    width:100px;
+    background-color:#89CFF3; 
+}
+.temperature{
+    margin:5px;
+    padding: 5px;
+    font-size: 40px;
+    font-family: Arial;
+    color:black;
+    text-align: center;
+    background-color:#89CFF3;
+}
+.condition{
+    margin:5px;
+    padding: 5px;
+    font-size: 32px;
+    font-family: Arial;
+    color:black;
+    text-align: center;
+    background-color:#89CFF3;
+}
+#dateAndDay{
+    margin:5px;
+    padding:5px;
+    text-align: center;
+}
+#img{
+    position:absolute;
+    z-index: -1;
+    width:100px;
+}
+#date{
+    font-size:35px;
+    font-family:Arial;
+}
+#moreInformation{
+    padding:10px;
+    margin:5px;
+    display: flex;
+}
+#pressureBox{
+    padding:10px;
+    margin:10px;
+    border:solid;
+    border-radius: 4px;
+    border-color: black;
+    width:30%;
+}
+#pressureLogo{
+    width:40px;
+    height: 40px;
+}
+#windSpeedBox{
+    padding:10px;
+    margin:10px;
+    border:solid;
+    border-radius: 4px;
+    border-color:black;
+    width:30%;
+}
+#windSpeedLogo{
+    width:40px;
+    height: 40px;
+}
+#humidityBox{
+    padding:10px;
+    margin:10px;
+    border:solid;
+    border-radius: 4px;
+    border-color: black;
+    width:30%;
+}
+#humidityLogo{
+    width:40px;
+    height:40px;
+}
+.error{
+    text-align: left;
+    margin:10px;
+    font-size: 14px;
+    display:none;
+}
+#weatherCondition{
+    display:block;
+}
+.footer{
+    font-size:14px;
+    text-align: center;
+    margin:10px;
+    margin-bottom: 0px;
+}
+#pastWeatherData{
+    display: contents;
+}
+#WeatherData{
+    padding:10px;
+    margin:10px;
+    border:solid 2px;
+    border-collapse: collapse;
+}
+tr,th,td{
+    padding:0px;
+    border: 1px solid black;
+    text-align: center;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link href="Mallika_Rana_2408240.css" rel="stylesheet">
+</head>
+<body>
+    <div id="weatherForecast">
+        <header>
+            <h1 id="heading">Weather Forecast</h1>
+        </header>
+        <section>
+            <div class="searchEngine">
+                <input id="cityInput" placeholder="Enter the city name">
+                <button id="submit">Search</button>
+            </div>
+            <!--Error Section-->
+            <div class="error">
+                <p>Invalid city name</p>
+            </div>
+        </section>
+        <div id="weatherCondition">
+        <section>
+            <h1 id="cityName">Dehri</h1>
+            <div id="temperatureCondition">
+                <img src="" alt="weather-condition" id="image">
+                <p class="temperature">Temperature</p>
+                <p class="condition">Condition</p>
+            </div>
+        </section>
+        <section id="dateAndDay">
+            <p id="date">10 July</p>
+        </section>
+        <section>
+            <div id="moreInformation">
+                <div id="pressureBox">
+                    <img src="https://www.svgrepo.com/show/521793/pressure.svg" id="pressureLogo">
+                    <p class="pressure"></p>
+                    <p>Pressure</p>
+                </div>
+                <div id="windSpeedBox">
+                    <img src="https://www.svgrepo.com/show/510348/wind.svg" id="windSpeedLogo">
+                    <p class="windSpeed"></p>
+                    <p>Wind Speed</p>
+                </div>
+                <div id="humidityBox">
+                   <img src="https://www.svgrepo.com/show/26690/humidity.svg" id="humidityLogo">
+                   <p class="humidity" ></p>
+                   <p>Humidity</p>
+                </div>
+            </div>
+         </section>
+        </div>
+        <!--Footer section-->
+        <footer class="footer">
+            <p>Copyright © 2024</p>
+            <p> Author:Mallika Rana,Id:2408240</p>
+            <p>All rights are Reserved</p>
+        </footer>
+    </div>
+    <div id="pastWeatherData">
+        <table id="WeatherData">
+            <tr>
+                <th>Date</th>
+                <th>Day</th>
+                <th>Weather Icon</th>
+                <th>Temperature</th>
+                <th>Pressure</th>
+                <th>Wind</th>
+                <th>Humidity</th>
+            </tr>
+            <tbody id="weatherInfo">
+
+            </tbody>
+        </table>
+    </div>
+    <script src="Mallika_Rana_2408240.js"></script>
+</body>
+</html>
